@@ -14,7 +14,7 @@ int main() {
     cin >> number;
 
     if (number >= 0 && number <= 9) {
-        cout << "Вы ввели: " << NumsWords[number] << endl;
+        cout << "Вы ввели " << NumsWords[number] << endl;
     } else {
         cout << "Ошибка: Введите цифру от 0 до 9." << endl;
     }
