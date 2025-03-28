@@ -15,7 +15,7 @@ string get_day_of_week(int d) {
 
 
   if (day < 1 || day > 31 || month < 1 || month > 12) {
-    return "Ошибка: Некорректная дата (день или месяц).";
+    return "Некорректная дата (день или месяц).";
   }
 
   if (year < 70) {
