@@ -13,7 +13,6 @@ string get_day_of_week(int d) {
   int month = (d % 10000) / 100;
   int year = d % 100;
 
-
   if (day < 1 || day > 31 || month < 1 || month > 12) {
     return "Некорректная дата (день или месяц).";
   }
