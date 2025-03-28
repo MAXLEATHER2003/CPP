@@ -37,9 +37,9 @@ string get_day_of_week(int d) {
 int main() {
     setlocale(0,"Russian");
 
-  cout << get_day_of_week(240423) << endl;
-  cout << get_day_of_week(240493) << endl;
-  cout << get_day_of_week(10170) << endl;
+    cout << get_day_of_week(240423) << endl;
+    cout << get_day_of_week(240493) << endl;
+    cout << get_day_of_week(10170) << endl;
 
   return 0;
 }
